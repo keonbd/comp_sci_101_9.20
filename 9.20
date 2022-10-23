@@ -1,0 +1,5 @@
+first = input().split()
+second = input().split()
+for i,v in enumerate(first):
+    if v != second[i]:
+        print(v, second[i])
